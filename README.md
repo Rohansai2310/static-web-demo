@@ -1,7 +1,6 @@
 # 🌐 Automated Static Website with CI/CD
 
 ![Deploy Static Website](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=github-actions)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Node.js](https://img.shields.io/badge/node-%3E%3D20.0.0-339933?logo=node.js)
 
 A beginner-friendly demonstration of a **Continuous Integration (CI)** and **Continuous Deployment (CD)** pipeline built with standard web technologies and **GitHub Actions**.
@@ -29,7 +28,7 @@ static-web-demo/
 │   └── site.test.js     # Automated CI static test suite
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml   # GitHub Actions CI/CD workflow config
+│       └── main.yml     # GitHub Actions CI/CD workflow config
 ├── package.json         # Node.js project metadata & test scripts
 └── README.md            # Project documentation
 ```
@@ -75,8 +74,8 @@ npm test
 
 **Expected Output:**
 ```text
-Running website build tests...
-[PASSED] All website static checks passed successfully!
+🔍 Running CI test suite...
+[PASSED] All static tab content checks passed successfully!
 ```
 
 ---
@@ -101,4 +100,4 @@ To host your own version of this automated website on GitHub:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This repository does not include a `LICENSE` file. Check with the source project maintainer before redistributing it.

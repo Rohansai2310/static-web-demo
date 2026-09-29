@@ -3,6 +3,14 @@ const assert = require('assert');
 
 console.log("🔍 Running CI test suite...");
 
+const requiredTabs = [
+  'PES University',
+  'About me',
+  'CI/CD Pipeline',
+  'Instructable',
+  'About'
+];
+
 // 1. Verify critical files exist
 assert(fs.existsSync('src/index.html'), "❌ Error: src/index.html is missing!");
 assert(fs.existsSync('src/style.css'), "❌ Error: src/style.css is missing!");
